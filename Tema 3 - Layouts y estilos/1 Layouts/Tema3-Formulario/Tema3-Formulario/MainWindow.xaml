@@ -1,0 +1,85 @@
+﻿<Window x:Class="Tema3_Formulario.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tema3_Formulario"
+        mc:Ignorable="d"
+        Title="Formulario" Height="559" Width="865"
+        MinHeight="559" MinWidth="865"
+        Icon="./Resources/Logo.ico">
+    <DockPanel LastChildFill="True">
+        <TextBlock TextWrapping="Wrap" Text="Formulario" DockPanel.Dock="Top" FontSize="40px" FontWeight="Bold" Margin="0,20,0,0" Width="Auto" TextAlignment="Center"/>
+        <DockPanel DockPanel.Dock="Bottom" LastChildFill="True" VerticalAlignment="Center">
+            <TextBlock TextWrapping="Wrap" Text="Jesús Krastev" FontSize="20px" Width="Auto" FontStyle="Italic" TextAlignment="Center" DockPanel.Dock="Left"/>
+            <StackPanel Orientation="Horizontal" DockPanel.Dock="Right">
+                <Button Margin="5"  Content="Aceptar" Width="90px" Height="25px"></Button>
+                <Button Margin="5" Content="Cancelar" Width="90px" Height="25px"></Button>
+            </StackPanel>
+            <TextBlock></TextBlock>
+        </DockPanel>
+        <DockPanel LastChildFill="True">
+            <Image Margin="10" Source="./Resources/foto.jpg" DockPanel.Dock="Right"></Image>
+            <StackPanel>
+                <Border BorderThickness="3" CornerRadius="3" BorderBrush="Black" Margin="10">
+                    <Border.Effect>
+                        <DropShadowEffect/>
+                    </Border.Effect>
+                    <StackPanel Background="LightBlue">
+                    <DockPanel LastChildFill="True">
+                        <TextBlock TextWrapping="Wrap" Text="Nombre" Margin="10" Width="50" DockPanel.Dock="Left"/>
+                        <TextBlock Width="20" Height="20" Margin="0,0,10,0"  DockPanel.Dock="Right" ToolTip="Máximo 100 caracteres">
+                            <TextBlock.Background>
+                                <ImageBrush ImageSource="/Resources/info.png"/>
+                            </TextBlock.Background>
+                        </TextBlock>
+                        <TextBox TextWrapping="Wrap" Text="" Width="Auto" Margin="10"/>
+                    </DockPanel>
+                    <DockPanel LastChildFill="True">
+                        <TextBlock TextWrapping="Wrap" Text="Edad" Margin="10" Width="50" DockPanel.Dock="Left"/>
+                        <TextBlock Width="20" Height="20" Margin="0,0,10,0"  DockPanel.Dock="Right" ToolTip="Número entero entre 0 y 100">
+                            <TextBlock.Background>
+                                <ImageBrush ImageSource="/Resources/info.png"/>
+                            </TextBlock.Background>
+                        </TextBlock>
+                        <TextBox TextWrapping="Wrap" Text="" Width="Auto" Margin="10"/>
+                    </DockPanel>
+                    <DockPanel LastChildFill="True">
+                        <TextBlock TextWrapping="Wrap" Text="Dirección" Margin="10" Width="50" DockPanel.Dock="Left"/>
+                        <TextBlock Width="20" Height="20" Margin="0,0,10,0" DockPanel.Dock="Right" ToolTip="Incluir el código postal">
+                            <TextBlock.Background>
+                                <ImageBrush ImageSource="/Resources/info.png"/>
+                            </TextBlock.Background>
+                        </TextBlock>
+                        <TextBox TextWrapping="Wrap" Text="" Width="Auto" Margin="10"/>
+                    </DockPanel>
+                </StackPanel>
+                </Border>
+
+                <Border BorderThickness="3" CornerRadius="3" BorderBrush="Black" Margin="10">
+                    <Border.Effect>
+                        <DropShadowEffect/>
+                    </Border.Effect>
+                    <StackPanel Background="LightGoldenrodYellow" Orientation="Horizontal">
+                        <GroupBox Header="Aficiones" Width="200" Height="100" Margin="10,20,20,20">
+                            <StackPanel HorizontalAlignment="Left" VerticalAlignment="Center"  Margin="10,0,0,0">
+                                <CheckBox Content="Hacer deporte"/>
+                                <CheckBox Content="Viajar"/>
+                                <CheckBox Content="Ver series"/>
+                                <CheckBox Content="Leer comics"/>
+                            </StackPanel>
+                        </GroupBox>
+                        <GroupBox Header="Estado civil" Width="200" Height="100">
+                            <StackPanel HorizontalAlignment="Left" VerticalAlignment="Center"  Margin="10,0,0,0">
+                                <RadioButton Content="Soltero" IsChecked="True" GroupName="estadoCivil"/>
+                                <RadioButton Content="Casado" GroupName="estadoCivil"/>
+                                <RadioButton Content="Divorciado" GroupName="estadoCivil"/>
+                                <RadioButton Content="Viudo" GroupName="estadoCivil"/>
+                            </StackPanel>
+                        </GroupBox>
+                    </StackPanel>
+                </Border>
+            </StackPanel>
+        </DockPanel>
+    </DockPanel>
+</Window>

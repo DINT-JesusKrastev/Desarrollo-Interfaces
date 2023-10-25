@@ -1,0 +1,47 @@
+﻿<Window x:Class="Tema3_FormularioStackPanel.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tema3_FormularioStackPanel"
+        mc:Ignorable="d"
+        Title="Formulario StackPanel" Height="355" Width="732"
+        Icon="./Resources/Logo.ico"
+        MinWidth="400">
+    <StackPanel>
+        <StackPanel Margin="10">
+            <StackPanel.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF01A430"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </StackPanel.Background>
+            <Label FontSize="16px" FontWeight="Bold">Nombre</Label>
+            <TextBox TextWrapping="Wrap" Text="" Width="Auto" Margin="5,10"/>
+        </StackPanel>
+        <StackPanel Margin="10">
+            <StackPanel.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF73ADDA"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </StackPanel.Background>
+            <Label FontSize="16px" FontWeight="Bold">Dirección</Label>
+            <TextBox TextWrapping="Wrap" Text="" Width="Auto" Margin="5,10"/>
+        </StackPanel>
+        <StackPanel Margin="10">
+            <StackPanel.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFE2679F"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </StackPanel.Background>
+            <Label FontSize="16px" FontWeight="Bold">Correo electrónico</Label>
+            <TextBox TextWrapping="Wrap" Text="" Width="Auto" Margin="5,10"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+            <Button Content="Aceptar" Margin="10px" Width="100px"/>
+            <Button Content="Cancelar" Margin="10px" Width="100px"/>
+        </StackPanel>
+    </StackPanel>
+</Window>

@@ -1,0 +1,77 @@
+﻿<Window x:Class="Tema2_TamanyoTexto.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tema2_TamanyoTexto"
+        mc:Ignorable="d"
+        Title="Tamaño del texto" Height="372" Width="957" Icon="/Resources/Logo.ico">
+    <Grid>
+        <TextBlock 
+            x:Name="tituloTextBlock"
+            HorizontalAlignment="Center" 
+            Margin="0,36,0,0" 
+            TextWrapping="Wrap" 
+            FontSize="50px"
+            FontWeight="Bold"
+            Text="Desarrollo de interfaces" 
+            VerticalAlignment="Top" 
+            Foreground="#FF6FA1DC">
+            <TextBlock.Effect>
+                <DropShadowEffect/>
+            </TextBlock.Effect>
+        </TextBlock>
+        <RadioButton 
+            x:Name="tamanyoPequenyoRadioButton"
+            Tag="pequenyo"
+            GroupName="tamanyoTexto"
+            Content="Pequeño" 
+            HorizontalAlignment="Left" 
+            Margin="128,262,0,0" 
+            VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Checked="TamanyoTextoRadioButton_Checked">
+            <RadioButton.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="3" ScaleY="3"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </RadioButton.RenderTransform>
+        </RadioButton>
+        <RadioButton 
+            x:Name="tamanyoMedioRadioButton"
+            Tag="medio"
+            GroupName="tamanyoTexto"
+            IsChecked="True"
+            Content="Media" 
+            HorizontalAlignment="Left" 
+            Margin="456,262,0,0" 
+            VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Checked="TamanyoTextoRadioButton_Checked">
+            <RadioButton.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="3" ScaleY="3"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </RadioButton.RenderTransform>
+        </RadioButton>
+        <RadioButton 
+            x:Name="tamanyoGrandeRadioButton"
+            Tag="grande"
+            GroupName="tamanyoTexto"
+            Content="Grande" 
+            HorizontalAlignment="Left" 
+            Margin="776,262,0,0" 
+            VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Checked="TamanyoTextoRadioButton_Checked">
+            <RadioButton.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="3" ScaleY="3"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </RadioButton.RenderTransform>
+        </RadioButton>
+    </Grid>
+</Window>

@@ -1,0 +1,44 @@
+E:\DAM\2DAM\Desarrollo de interfaces\Tema 3 - Layouts y estilos\Ejercicios\Tema3-Calculadora\Tema3-Calculadora\bin\Debug\net6.0-windows\Tema3-Calculadora.exe
+E:\DAM\2DAM\Desarrollo de interfaces\Tema 3 - Layouts y estilos\Ejercicios\Tema3-Calculadora\Tema3-Calculadora\bin\Debug\net6.0-windows\Tema3-Calculadora.deps.json
+E:\DAM\2DAM\Desarrollo de interfaces\Tema 3 - Layouts y estilos\Ejercicios\Tema3-Calculadora\Tema3-Calculadora\bin\Debug\net6.0-windows\Tema3-Calculadora.runtimeconfig.json
+E:\DAM\2DAM\Desarrollo de interfaces\Tema 3 - Layouts y estilos\Ejercicios\Tema3-Calculadora\Tema3-Calculadora\bin\Debug\net6.0-windows\Tema3-Calculadora.dll
+E:\DAM\2DAM\Desarrollo de interfaces\Tema 3 - Layouts y estilos\Ejercicios\Tema3-Calculadora\Tema3-Calculadora\bin\Debug\net6.0-windows\Tema3-Calculadora.pdb
+E:\DAM\2DAM\Desarrollo de interfaces\Tema 3 - Layouts y estilos\Ejercicios\Tema3-Calculadora\Tema3-Calculadora\obj\Debug\net6.0-windows\MainWindow.g.cs
+E:\DAM\2DAM\Desarrollo de interfaces\Tema 3 - Layouts y estilos\Ejercicios\Tema3-Calculadora\Tema3-Calculadora\obj\Debug\net6.0-windows\App.g.cs
+E:\DAM\2DAM\Desarrollo de interfaces\Tema 3 - Layouts y estilos\Ejercicios\Tema3-Calculadora\Tema3-Calculadora\obj\Debug\net6.0-windows\Tema3-Calculadora_MarkupCompile.cache
+E:\DAM\2DAM\Desarrollo de interfaces\Tema 3 - Layouts y estilos\Ejercicios\Tema3-Calculadora\Tema3-Calculadora\obj\Debug\net6.0-windows\Tema3-Calculadora_MarkupCompile.lref
+E:\DAM\2DAM\Desarrollo de interfaces\Tema 3 - Layouts y estilos\Ejercicios\Tema3-Calculadora\Tema3-Calculadora\obj\Debug\net6.0-windows\MainWindow.baml
+E:\DAM\2DAM\Desarrollo de interfaces\Tema 3 - Layouts y estilos\Ejercicios\Tema3-Calculadora\Tema3-Calculadora\obj\Debug\net6.0-windows\Tema3-Calculadora.g.resources
+E:\DAM\2DAM\Desarrollo de interfaces\Tema 3 - Layouts y estilos\Ejercicios\Tema3-Calculadora\Tema3-Calculadora\obj\Debug\net6.0-windows\Tema3_Calculadora.Properties.Resources.resources
+E:\DAM\2DAM\Desarrollo de interfaces\Tema 3 - Layouts y estilos\Ejercicios\Tema3-Calculadora\Tema3-Calculadora\obj\Debug\net6.0-windows\Tema3-Calculadora.csproj.GenerateResource.cache
+E:\DAM\2DAM\Desarrollo de interfaces\Tema 3 - Layouts y estilos\Ejercicios\Tema3-Calculadora\Tema3-Calculadora\obj\Debug\net6.0-windows\Tema3-Calculadora.GeneratedMSBuildEditorConfig.editorconfig
+E:\DAM\2DAM\Desarrollo de interfaces\Tema 3 - Layouts y estilos\Ejercicios\Tema3-Calculadora\Tema3-Calculadora\obj\Debug\net6.0-windows\Tema3-Calculadora.AssemblyInfoInputs.cache
+E:\DAM\2DAM\Desarrollo de interfaces\Tema 3 - Layouts y estilos\Ejercicios\Tema3-Calculadora\Tema3-Calculadora\obj\Debug\net6.0-windows\Tema3-Calculadora.AssemblyInfo.cs
+E:\DAM\2DAM\Desarrollo de interfaces\Tema 3 - Layouts y estilos\Ejercicios\Tema3-Calculadora\Tema3-Calculadora\obj\Debug\net6.0-windows\Tema3-Calculadora.csproj.CoreCompileInputs.cache
+E:\DAM\2DAM\Desarrollo de interfaces\Tema 3 - Layouts y estilos\Ejercicios\Tema3-Calculadora\Tema3-Calculadora\obj\Debug\net6.0-windows\Tema3-Calculadora.dll
+E:\DAM\2DAM\Desarrollo de interfaces\Tema 3 - Layouts y estilos\Ejercicios\Tema3-Calculadora\Tema3-Calculadora\obj\Debug\net6.0-windows\refint\Tema3-Calculadora.dll
+E:\DAM\2DAM\Desarrollo de interfaces\Tema 3 - Layouts y estilos\Ejercicios\Tema3-Calculadora\Tema3-Calculadora\obj\Debug\net6.0-windows\Tema3-Calculadora.pdb
+E:\DAM\2DAM\Desarrollo de interfaces\Tema 3 - Layouts y estilos\Ejercicios\Tema3-Calculadora\Tema3-Calculadora\obj\Debug\net6.0-windows\Tema3-Calculadora.genruntimeconfig.cache
+E:\DAM\2DAM\Desarrollo de interfaces\Tema 3 - Layouts y estilos\Ejercicios\Tema3-Calculadora\Tema3-Calculadora\obj\Debug\net6.0-windows\ref\Tema3-Calculadora.dll
+J:\DAM\2DAM\Desarrollo de interfaces\Tema 3 - Layouts y estilos\Ejercicios\2 Ejercicios Styles\Tema3-Calculadora\Tema3-Calculadora\bin\Debug\net6.0-windows\Tema3-Calculadora.exe
+J:\DAM\2DAM\Desarrollo de interfaces\Tema 3 - Layouts y estilos\Ejercicios\2 Ejercicios Styles\Tema3-Calculadora\Tema3-Calculadora\bin\Debug\net6.0-windows\Tema3-Calculadora.deps.json
+J:\DAM\2DAM\Desarrollo de interfaces\Tema 3 - Layouts y estilos\Ejercicios\2 Ejercicios Styles\Tema3-Calculadora\Tema3-Calculadora\bin\Debug\net6.0-windows\Tema3-Calculadora.runtimeconfig.json
+J:\DAM\2DAM\Desarrollo de interfaces\Tema 3 - Layouts y estilos\Ejercicios\2 Ejercicios Styles\Tema3-Calculadora\Tema3-Calculadora\bin\Debug\net6.0-windows\Tema3-Calculadora.dll
+J:\DAM\2DAM\Desarrollo de interfaces\Tema 3 - Layouts y estilos\Ejercicios\2 Ejercicios Styles\Tema3-Calculadora\Tema3-Calculadora\bin\Debug\net6.0-windows\Tema3-Calculadora.pdb
+J:\DAM\2DAM\Desarrollo de interfaces\Tema 3 - Layouts y estilos\Ejercicios\2 Ejercicios Styles\Tema3-Calculadora\Tema3-Calculadora\obj\Debug\net6.0-windows\MainWindow.g.cs
+J:\DAM\2DAM\Desarrollo de interfaces\Tema 3 - Layouts y estilos\Ejercicios\2 Ejercicios Styles\Tema3-Calculadora\Tema3-Calculadora\obj\Debug\net6.0-windows\App.g.cs
+J:\DAM\2DAM\Desarrollo de interfaces\Tema 3 - Layouts y estilos\Ejercicios\2 Ejercicios Styles\Tema3-Calculadora\Tema3-Calculadora\obj\Debug\net6.0-windows\Tema3-Calculadora_MarkupCompile.cache
+J:\DAM\2DAM\Desarrollo de interfaces\Tema 3 - Layouts y estilos\Ejercicios\2 Ejercicios Styles\Tema3-Calculadora\Tema3-Calculadora\obj\Debug\net6.0-windows\Tema3-Calculadora_MarkupCompile.lref
+J:\DAM\2DAM\Desarrollo de interfaces\Tema 3 - Layouts y estilos\Ejercicios\2 Ejercicios Styles\Tema3-Calculadora\Tema3-Calculadora\obj\Debug\net6.0-windows\MainWindow.baml
+J:\DAM\2DAM\Desarrollo de interfaces\Tema 3 - Layouts y estilos\Ejercicios\2 Ejercicios Styles\Tema3-Calculadora\Tema3-Calculadora\obj\Debug\net6.0-windows\Tema3-Calculadora.g.resources
+J:\DAM\2DAM\Desarrollo de interfaces\Tema 3 - Layouts y estilos\Ejercicios\2 Ejercicios Styles\Tema3-Calculadora\Tema3-Calculadora\obj\Debug\net6.0-windows\Tema3_Calculadora.Properties.Resources.resources
+J:\DAM\2DAM\Desarrollo de interfaces\Tema 3 - Layouts y estilos\Ejercicios\2 Ejercicios Styles\Tema3-Calculadora\Tema3-Calculadora\obj\Debug\net6.0-windows\Tema3-Calculadora.csproj.GenerateResource.cache
+J:\DAM\2DAM\Desarrollo de interfaces\Tema 3 - Layouts y estilos\Ejercicios\2 Ejercicios Styles\Tema3-Calculadora\Tema3-Calculadora\obj\Debug\net6.0-windows\Tema3-Calculadora.GeneratedMSBuildEditorConfig.editorconfig
+J:\DAM\2DAM\Desarrollo de interfaces\Tema 3 - Layouts y estilos\Ejercicios\2 Ejercicios Styles\Tema3-Calculadora\Tema3-Calculadora\obj\Debug\net6.0-windows\Tema3-Calculadora.AssemblyInfoInputs.cache
+J:\DAM\2DAM\Desarrollo de interfaces\Tema 3 - Layouts y estilos\Ejercicios\2 Ejercicios Styles\Tema3-Calculadora\Tema3-Calculadora\obj\Debug\net6.0-windows\Tema3-Calculadora.AssemblyInfo.cs
+J:\DAM\2DAM\Desarrollo de interfaces\Tema 3 - Layouts y estilos\Ejercicios\2 Ejercicios Styles\Tema3-Calculadora\Tema3-Calculadora\obj\Debug\net6.0-windows\Tema3-Calculadora.csproj.CoreCompileInputs.cache
+J:\DAM\2DAM\Desarrollo de interfaces\Tema 3 - Layouts y estilos\Ejercicios\2 Ejercicios Styles\Tema3-Calculadora\Tema3-Calculadora\obj\Debug\net6.0-windows\Tema3-Calculadora.dll
+J:\DAM\2DAM\Desarrollo de interfaces\Tema 3 - Layouts y estilos\Ejercicios\2 Ejercicios Styles\Tema3-Calculadora\Tema3-Calculadora\obj\Debug\net6.0-windows\refint\Tema3-Calculadora.dll
+J:\DAM\2DAM\Desarrollo de interfaces\Tema 3 - Layouts y estilos\Ejercicios\2 Ejercicios Styles\Tema3-Calculadora\Tema3-Calculadora\obj\Debug\net6.0-windows\Tema3-Calculadora.pdb
+J:\DAM\2DAM\Desarrollo de interfaces\Tema 3 - Layouts y estilos\Ejercicios\2 Ejercicios Styles\Tema3-Calculadora\Tema3-Calculadora\obj\Debug\net6.0-windows\Tema3-Calculadora.genruntimeconfig.cache
+J:\DAM\2DAM\Desarrollo de interfaces\Tema 3 - Layouts y estilos\Ejercicios\2 Ejercicios Styles\Tema3-Calculadora\Tema3-Calculadora\obj\Debug\net6.0-windows\ref\Tema3-Calculadora.dll
