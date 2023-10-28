@@ -4,6 +4,7 @@ using System.Drawing;
 using System.Linq;
 using System.Reflection;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -132,10 +133,19 @@ namespace Tema3_PixelArt {
         }
 
         private void TamanyoPersonalizadoTextbox_KeyUp(object sender, KeyEventArgs e) {
+            int tamanyoCuadricula;
+
             if (Key.Enter == e.Key && !TamanyoPersonalizadoTextbox.Text.Equals("")) {
                 try {
-                    GeneraCuadricula(int.Parse(TamanyoPersonalizadoTextbox.Text));
-                    Keyboard.ClearFocus();
+                    tamanyoCuadricula = int.Parse(TamanyoPersonalizadoTextbox.Text);
+                    if (!CuadriculaVacia()) {
+                        if (MessageBox.Show("¿Seguro que quieres perder tu dibujo?", "Nuevo dibujo", MessageBoxButton.YesNo, MessageBoxImage.Question) == MessageBoxResult.Yes) {
+                            GeneraCuadricula(tamanyoCuadricula);
+                            Keyboard.ClearFocus();
+                        }
+                    } else {
+                        GeneraCuadricula(tamanyoCuadricula);
+                    }
                 } catch (FormatException ex) {
                     MessageBox.Show("El formato del tamaño introducido no es válido", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
                 }

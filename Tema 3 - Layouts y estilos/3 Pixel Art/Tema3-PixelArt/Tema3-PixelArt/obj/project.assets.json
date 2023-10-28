@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\DAM\\2DAM\\Desarrollo de interfaces\\Tema 3 - Layouts y estilos\\Mini Proyecto\\Tema3-PixelArt\\Tema3-PixelArt\\Tema3-PixelArt.csproj",
+      "projectUniqueName": "E:\\DAM\\2DAM\\Desarrollo de interfaces\\Tema 3 - Layouts y estilos\\Ejercicios\\3 Pixel Art\\Tema3-PixelArt\\Tema3-PixelArt\\Tema3-PixelArt.csproj",
       "projectName": "Tema3-PixelArt",
-      "projectPath": "E:\\DAM\\2DAM\\Desarrollo de interfaces\\Tema 3 - Layouts y estilos\\Mini Proyecto\\Tema3-PixelArt\\Tema3-PixelArt\\Tema3-PixelArt.csproj",
+      "projectPath": "E:\\DAM\\2DAM\\Desarrollo de interfaces\\Tema 3 - Layouts y estilos\\Ejercicios\\3 Pixel Art\\Tema3-PixelArt\\Tema3-PixelArt\\Tema3-PixelArt.csproj",
       "packagesPath": "C:\\Users\\Jesus\\.nuget\\packages\\",
-      "outputPath": "E:\\DAM\\2DAM\\Desarrollo de interfaces\\Tema 3 - Layouts y estilos\\Mini Proyecto\\Tema3-PixelArt\\Tema3-PixelArt\\obj\\",
+      "outputPath": "E:\\DAM\\2DAM\\Desarrollo de interfaces\\Tema 3 - Layouts y estilos\\Ejercicios\\3 Pixel Art\\Tema3-PixelArt\\Tema3-PixelArt\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Jesus\\AppData\\Roaming\\NuGet\\NuGet.Config",

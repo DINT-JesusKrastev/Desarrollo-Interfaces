@@ -42,3 +42,25 @@ E:\DAM\2DAM\Desarrollo de interfaces\Tema 3 - Layouts y estilos\Mini Proyecto\Te
 E:\DAM\2DAM\Desarrollo de interfaces\Tema 3 - Layouts y estilos\Mini Proyecto\Tema3-PixelArt\Tema3-PixelArt\obj\Debug\net6.0-windows\Tema3-PixelArt.pdb
 E:\DAM\2DAM\Desarrollo de interfaces\Tema 3 - Layouts y estilos\Mini Proyecto\Tema3-PixelArt\Tema3-PixelArt\obj\Debug\net6.0-windows\Tema3-PixelArt.genruntimeconfig.cache
 E:\DAM\2DAM\Desarrollo de interfaces\Tema 3 - Layouts y estilos\Mini Proyecto\Tema3-PixelArt\Tema3-PixelArt\obj\Debug\net6.0-windows\ref\Tema3-PixelArt.dll
+E:\DAM\2DAM\Desarrollo de interfaces\Tema 3 - Layouts y estilos\Ejercicios\3 Pixel Art\Tema3-PixelArt\Tema3-PixelArt\bin\Debug\net6.0-windows\Tema3-PixelArt.exe
+E:\DAM\2DAM\Desarrollo de interfaces\Tema 3 - Layouts y estilos\Ejercicios\3 Pixel Art\Tema3-PixelArt\Tema3-PixelArt\bin\Debug\net6.0-windows\Tema3-PixelArt.deps.json
+E:\DAM\2DAM\Desarrollo de interfaces\Tema 3 - Layouts y estilos\Ejercicios\3 Pixel Art\Tema3-PixelArt\Tema3-PixelArt\bin\Debug\net6.0-windows\Tema3-PixelArt.runtimeconfig.json
+E:\DAM\2DAM\Desarrollo de interfaces\Tema 3 - Layouts y estilos\Ejercicios\3 Pixel Art\Tema3-PixelArt\Tema3-PixelArt\bin\Debug\net6.0-windows\Tema3-PixelArt.dll
+E:\DAM\2DAM\Desarrollo de interfaces\Tema 3 - Layouts y estilos\Ejercicios\3 Pixel Art\Tema3-PixelArt\Tema3-PixelArt\bin\Debug\net6.0-windows\Tema3-PixelArt.pdb
+E:\DAM\2DAM\Desarrollo de interfaces\Tema 3 - Layouts y estilos\Ejercicios\3 Pixel Art\Tema3-PixelArt\Tema3-PixelArt\obj\Debug\net6.0-windows\MainWindow.g.cs
+E:\DAM\2DAM\Desarrollo de interfaces\Tema 3 - Layouts y estilos\Ejercicios\3 Pixel Art\Tema3-PixelArt\Tema3-PixelArt\obj\Debug\net6.0-windows\App.g.cs
+E:\DAM\2DAM\Desarrollo de interfaces\Tema 3 - Layouts y estilos\Ejercicios\3 Pixel Art\Tema3-PixelArt\Tema3-PixelArt\obj\Debug\net6.0-windows\Tema3-PixelArt_MarkupCompile.cache
+E:\DAM\2DAM\Desarrollo de interfaces\Tema 3 - Layouts y estilos\Ejercicios\3 Pixel Art\Tema3-PixelArt\Tema3-PixelArt\obj\Debug\net6.0-windows\Tema3-PixelArt_MarkupCompile.lref
+E:\DAM\2DAM\Desarrollo de interfaces\Tema 3 - Layouts y estilos\Ejercicios\3 Pixel Art\Tema3-PixelArt\Tema3-PixelArt\obj\Debug\net6.0-windows\MainWindow.baml
+E:\DAM\2DAM\Desarrollo de interfaces\Tema 3 - Layouts y estilos\Ejercicios\3 Pixel Art\Tema3-PixelArt\Tema3-PixelArt\obj\Debug\net6.0-windows\Tema3-PixelArt.g.resources
+E:\DAM\2DAM\Desarrollo de interfaces\Tema 3 - Layouts y estilos\Ejercicios\3 Pixel Art\Tema3-PixelArt\Tema3-PixelArt\obj\Debug\net6.0-windows\Tema3_PixelArt.Properties.Resources.resources
+E:\DAM\2DAM\Desarrollo de interfaces\Tema 3 - Layouts y estilos\Ejercicios\3 Pixel Art\Tema3-PixelArt\Tema3-PixelArt\obj\Debug\net6.0-windows\Tema3-PixelArt.csproj.GenerateResource.cache
+E:\DAM\2DAM\Desarrollo de interfaces\Tema 3 - Layouts y estilos\Ejercicios\3 Pixel Art\Tema3-PixelArt\Tema3-PixelArt\obj\Debug\net6.0-windows\Tema3-PixelArt.GeneratedMSBuildEditorConfig.editorconfig
+E:\DAM\2DAM\Desarrollo de interfaces\Tema 3 - Layouts y estilos\Ejercicios\3 Pixel Art\Tema3-PixelArt\Tema3-PixelArt\obj\Debug\net6.0-windows\Tema3-PixelArt.AssemblyInfoInputs.cache
+E:\DAM\2DAM\Desarrollo de interfaces\Tema 3 - Layouts y estilos\Ejercicios\3 Pixel Art\Tema3-PixelArt\Tema3-PixelArt\obj\Debug\net6.0-windows\Tema3-PixelArt.AssemblyInfo.cs
+E:\DAM\2DAM\Desarrollo de interfaces\Tema 3 - Layouts y estilos\Ejercicios\3 Pixel Art\Tema3-PixelArt\Tema3-PixelArt\obj\Debug\net6.0-windows\Tema3-PixelArt.csproj.CoreCompileInputs.cache
+E:\DAM\2DAM\Desarrollo de interfaces\Tema 3 - Layouts y estilos\Ejercicios\3 Pixel Art\Tema3-PixelArt\Tema3-PixelArt\obj\Debug\net6.0-windows\Tema3-PixelArt.dll
+E:\DAM\2DAM\Desarrollo de interfaces\Tema 3 - Layouts y estilos\Ejercicios\3 Pixel Art\Tema3-PixelArt\Tema3-PixelArt\obj\Debug\net6.0-windows\refint\Tema3-PixelArt.dll
+E:\DAM\2DAM\Desarrollo de interfaces\Tema 3 - Layouts y estilos\Ejercicios\3 Pixel Art\Tema3-PixelArt\Tema3-PixelArt\obj\Debug\net6.0-windows\Tema3-PixelArt.pdb
+E:\DAM\2DAM\Desarrollo de interfaces\Tema 3 - Layouts y estilos\Ejercicios\3 Pixel Art\Tema3-PixelArt\Tema3-PixelArt\obj\Debug\net6.0-windows\Tema3-PixelArt.genruntimeconfig.cache
+E:\DAM\2DAM\Desarrollo de interfaces\Tema 3 - Layouts y estilos\Ejercicios\3 Pixel Art\Tema3-PixelArt\Tema3-PixelArt\obj\Debug\net6.0-windows\ref\Tema3-PixelArt.dll
