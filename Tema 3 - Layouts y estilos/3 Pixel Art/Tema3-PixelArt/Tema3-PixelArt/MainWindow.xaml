@@ -1,0 +1,99 @@
+﻿<Window x:Class="Tema3_PixelArt.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tema3_PixelArt"
+        mc:Ignorable="d"
+        Title="Pixel Art" Height="670" Width="900"
+        Icon="./Resources/Logo.png"
+        MinHeight="550" MinWidth="750">
+    <!--Estilos-->
+    <Window.Resources>
+        <Style TargetType="{x:Type Button}" x:Key="EstiloBotonEstablecerTamanyo">
+            <Setter Property="Background" Value="#fef1e6"/>
+            <Setter Property="Foreground" Value="#521808"/>
+            <Setter Property="BorderBrush" Value="#813919"/>
+            <Setter Property="FontFamily" Value="Carlito"/>
+            <Setter Property="FontSize" Value="12px"/>
+            <Setter Property="Width" Value="110px"/>
+            <Setter Property="Height" Value="22px"/>
+            <Setter Property="Margin" Value="0,0,0,10"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+        </Style>
+        <Style TargetType="{x:Type Button}" x:Key="EstiloBotonOpcionExtra">
+            <Setter Property="Background" Value="#fef1e6"/>
+            <Setter Property="Foreground" Value="#521808"/>
+            <Setter Property="BorderBrush" Value="#813919"/>
+            <Setter Property="Width" Value="25px"/>
+            <Setter Property="Height" Value="25px"/>
+            <Setter Property="Padding" Value="2px"/>
+        </Style>
+        <Style TargetType="{x:Type GroupBox}">
+            <Setter Property="BorderBrush" Value="#813919"/>
+            <Setter Property="BorderThickness" Value="1.5px"/>
+        </Style>
+        <Style TargetType="{x:Type RadioButton}">
+            <Setter Property="Margin" Value="0,0,0,5"/>
+        </Style>
+        <Style TargetType="{x:Type Border}" x:Key="EstiloBordeCuadricula">
+            <Setter Property="Margin" Value="0,10,30,30"/>
+            <Setter Property="BorderBrush" Value="Black"/>
+            <Setter Property="BorderThickness" Value="3px"/>
+        </Style>
+        <Style TargetType="{x:Type Border}" x:Key="EstiloPixelBorder">
+            <EventSetter Event="MouseEnter" Handler="PixelBorder_MouseEnter"/>
+            <EventSetter Event="MouseLeftButtonDown" Handler="PixelBorder_MouseLeftButtonDown"/>
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="BorderBrush" Value="Black"/>
+            <Setter Property="BorderThickness" Value="0.3"/>
+        </Style>
+    </Window.Resources>
+    
+    <!--Código-->
+    <DockPanel LastChildFill="True">
+        <StackPanel Orientation="Vertical" DockPanel.Dock="Left" Margin="20,0,20,0">
+            <GroupBox Header="Tamaño panel" Padding="10">
+                <StackPanel>
+                    <Button Tag="5" Content="Pequeño" Style="{StaticResource EstiloBotonEstablecerTamanyo}" Click="GeneraCuadriculaButton_Click"/>
+                    <Button Tag="15" Content="Mediano" Style="{StaticResource EstiloBotonEstablecerTamanyo}" Click="GeneraCuadriculaButton_Click"/>
+                    <Button Tag="25"  Content="Grande" Style="{StaticResource EstiloBotonEstablecerTamanyo}" Click="GeneraCuadriculaButton_Click"/>
+                    <TextBlock Text="Personalizado"/>
+                    <TextBox x:Name="TamanyoPersonalizadoTextbox" Text="ej. 60" Foreground="LightGray" KeyUp="TamanyoPersonalizadoTextbox_KeyUp" GotFocus="TamanyoPersonalizadoTextBox_GotFocus" LostFocus="TamanyoPersonalizadoTextBox_LostFocus"/>
+                </StackPanel>
+            </GroupBox>
+            <GroupBox Header="Color" Padding="10">
+                <StackPanel>
+                    <RadioButton Tag="#FFFFFF" Content="Blanco" GroupName="Color" IsChecked="True" Checked="ColorRadioButton_Checked"/>
+                    <RadioButton Tag="#000000" Content="Negro" GroupName="Color"  Checked="ColorRadioButton_Checked"/>
+                    <RadioButton Tag="#FF0000" Content="Rojo" GroupName="Color"  Checked="ColorRadioButton_Checked"/>
+                    <RadioButton Tag="#13FF00" Content="Verde" GroupName="Color"  Checked="ColorRadioButton_Checked"/>
+                    <RadioButton Tag="#0059FF" Content="Azul" GroupName="Color"  Checked="ColorRadioButton_Checked"/>
+                    <RadioButton Tag="#FFF300" Content="Amarillo" GroupName="Color"  Checked="ColorRadioButton_Checked"/>
+                    <RadioButton Tag="#FF9E00" Content="Naranja" GroupName="Color"  Checked="ColorRadioButton_Checked"/>
+                    <RadioButton Tag="#FB00FF" Content="Rosa" GroupName="Color"  Checked="ColorRadioButton_Checked"/>
+                    <RadioButton Content="Personalizado" GroupName="Color" Checked="ColorPersonalizadoRadioButton_Checked" Unchecked="ColorPersonalizadoRadioButton_Unchecked"/>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBox x:Name="ColorPersonalizadoTextBox" IsEnabled="False" KeyUp="ColorPersonalizadoTextBox_KeyUp" Width="85"/>
+                        <Rectangle x:Name="ColorSeleccionadoRectangle" Width="20" Height="20" Fill="White" Margin="5,0,0,0"></Rectangle>
+                    </StackPanel>
+                </StackPanel>
+            </GroupBox>
+            <GroupBox Header="Opciones Extra">
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                    <Button Margin="10" Style="{StaticResource EstiloBotonOpcionExtra}" Click="RellenaCuadriculaButton_Click">
+                        <Image Source="./Resources/CuboPintura.png"/>
+                    </Button>
+                    <Button Style="{StaticResource EstiloBotonOpcionExtra}" Click="ActivaBordeButton_Click">
+                        <Image Source="./Resources/Borde.png"/>
+                    </Button>
+                    <Button Margin="10" Style="{StaticResource EstiloBotonOpcionExtra}" Click="DesactivaBordeButton_Click">
+                        <Image Source="./Resources/SinBorde.png"/>
+                    </Button>
+                </StackPanel>
+            </GroupBox>
+        </StackPanel>
+        <Border x:Name="BordeCuadriculaBorder" Style="{StaticResource EstiloBordeCuadricula}">
+        </Border>
+    </DockPanel>
+</Window>
