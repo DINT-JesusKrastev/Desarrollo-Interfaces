@@ -1,0 +1,69 @@
+﻿<Window x:Class="Superheroes.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Superheroes"
+        mc:Ignorable="d"
+        Title="Superhéroes" Height="506" Width="694" MinHeight="500" MinWidth="695"
+        Icon="./Resources/shield.ico">
+    <!--Estilos-->
+    <Window.Resources>
+        <Style TargetType="{x:Type DockPanel}">
+            <Setter Property="LastChildFill" Value="True"/>
+        </Style>
+        <Style TargetType="{x:Type Image}" x:Key="Flecha">
+            <Setter Property="Width" Value="25"/>
+            <Setter Property="Height" Value="25"/>
+            <Setter Property="Source" Value="./Resources/arrow.png"/>
+            <EventSetter Event="MouseLeftButtonUp" Handler="FlechaButton_MouseLeftButtonUp"/>
+        </Style>
+        <Style TargetType="{x:Type TextBlock}" x:Key="Titulo">
+            <Setter Property="FontSize" Value="40"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="FontFamily" Value="Segoe UI Black"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="Effect">
+                <Setter.Value>
+                    <DropShadowEffect/>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style TargetType="{x:Type Image}" x:Key="Liga">
+            <Setter Property="Stretch" Value="Fill"/>
+        </Style>
+        <local:LigaBooleanToVisibility x:Key="LigaBooleanToVisibilityConversor"></local:LigaBooleanToVisibility>
+        <local:HeroeBooleanToBackground x:Key="HeroeBooleanToBackgroundConversor"></local:HeroeBooleanToBackground>
+    </Window.Resources>
+    
+    <!--Código-->
+    <DockPanel x:Name="PanelPrincipal" Background="{Binding Path=Heroe, Converter={StaticResource HeroeBooleanToBackgroundConversor}}">
+        <DockPanel DockPanel.Dock="Top">
+            <TextBlock Text="{Binding Path=Nombre}" DockPanel.Dock="Left" Margin="10,0,0,5" Style="{StaticResource Titulo}">
+                <TextBlock.Effect>
+                    <DropShadowEffect/>
+                </TextBlock.Effect>
+            </TextBlock>
+            <StackPanel Orientation="Horizontal" DockPanel.Dock="Right" Margin="5">
+                <Image Source="./Resources/avengers.png" Width="40" Height="45" Style="{StaticResource Liga}" Margin="0,0,5,0" Visibility="{Binding Path=Vengador, Converter={StaticResource LigaBooleanToVisibilityConversor}}"/>
+                <Image Source="./Resources/xmen.png" Width="60" Height="50" Style="{StaticResource Liga}" Visibility="{Binding Path=Xmen, Converter={StaticResource LigaBooleanToVisibilityConversor}}"/>
+            </StackPanel>
+            <Rectangle></Rectangle>
+        </DockPanel>
+        <StackPanel Orientation="Horizontal" DockPanel.Dock="Bottom" HorizontalAlignment="Center">
+            <Image x:Name="btnFlechaIzq" Style="{StaticResource Flecha}"/>
+            <TextBlock x:Name="numeracionPersonaje" Text="1/3" FontWeight="Bold" FontSize="20" Margin="5"/>
+            <Image x:Name="btnFlechaDrch" Style="{StaticResource Flecha}" RenderTransformOrigin="0.5,0.5">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="180"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+        </StackPanel>
+        <Image Source="{Binding Imagen}" Margin="10,0" Stretch="UniformToFill"/>
+    </DockPanel>
+</Window>
