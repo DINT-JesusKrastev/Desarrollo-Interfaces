@@ -39,13 +39,7 @@ namespace Comida
             ListaPlatos = Plato.GetSamples("./Resources/");
             PlatoSeleccionado = null;
         }
-
-        public void HabilitarEditorPlato(StackPanel editorPlato) => editorPlato.IsEnabled = true;
-        public void DeshabilitarEditorPlato(StackPanel editorPlato)
-        {
-            PlatoSeleccionado = null;
-            editorPlato.IsEnabled = false;
-        }
+        public void DeshabilitarEditorPlato() => PlatoSeleccionado = null;
 
         public event PropertyChangedEventHandler? PropertyChanged;
 

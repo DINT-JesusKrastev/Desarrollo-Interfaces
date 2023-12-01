@@ -18,7 +18,16 @@
         <Style TargetType="ListBoxItem">
             <EventSetter Event="PreviewMouseLeftButtonDown" Handler="Plato_PreviewMouseLeftButtonDown"></EventSetter>
         </Style>
-        
+
+        <Style TargetType="StackPanel" x:Key="formulario">
+            <Setter Property="IsEnabled" Value="True"></Setter>
+            <Style.Triggers>
+                <DataTrigger Binding="{Binding Path=PlatoSeleccionado}" Value="{x:Null}">
+                    <Setter Property="IsEnabled" Value="False"></Setter>
+                </DataTrigger>
+            </Style.Triggers>
+        </Style>
+
         <Style TargetType="TextBlock" x:Key="nombrePlato">
             <Style.Triggers>
                 <DataTrigger Binding="{Binding Path=Tipo}" Value="Americana">
@@ -136,7 +145,7 @@
                     </ListBox.ItemsPanel>
                 </ListBox>
             </Border>
-            <StackPanel x:Name="editorPlato" Grid.Row="0" Grid.Column="1" Background="#E7E7E7"  Orientation="Vertical" Margin="10">
+            <StackPanel Grid.Row="0" Grid.Column="1" Background="#E7E7E7"  Orientation="Vertical" Margin="10" Style="{StaticResource formulario}">
                 <TextBlock Text="Nombre del plato" Margin="10,10,0,0"/>
                 <TextBox Margin="10,0" Text="{Binding PlatoSeleccionado.Nombre}"/>
                 <TextBlock Text="Foto del plato" Margin="10,10,0,0"/>
