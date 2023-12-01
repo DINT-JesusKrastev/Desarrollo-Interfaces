@@ -1,0 +1,59 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\burguer.jpg" />
+    <None Remove="Resources\cerdoagridulce.jpg" />
+    <None Remove="Resources\china.png" />
+    <None Remove="Resources\dumplings.jpg" />
+    <None Remove="Resources\fajitas.jpg" />
+    <None Remove="Resources\fruit_food_apple.ico" />
+    <None Remove="Resources\gluten.png" />
+    <None Remove="Resources\hotdog.jpg" />
+    <None Remove="Resources\mexico.png" />
+    <None Remove="Resources\milk.png" />
+    <None Remove="Resources\soybean.png" />
+    <None Remove="Resources\sulfide.png" />
+    <None Remove="Resources\tacos.jpg" />
+    <None Remove="Resources\united_states.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\burguer.jpg" />
+    <Resource Include="Resources\cerdoagridulce.jpg" />
+    <Resource Include="Resources\china.png" />
+    <Resource Include="Resources\dumplings.jpg" />
+    <Resource Include="Resources\fajitas.jpg" />
+    <Resource Include="Resources\fruit_food_apple.ico" />
+    <Resource Include="Resources\gluten.png" />
+    <Resource Include="Resources\hotdog.jpg" />
+    <Resource Include="Resources\mexico.png" />
+    <Resource Include="Resources\milk.png" />
+    <Resource Include="Resources\soybean.png" />
+    <Resource Include="Resources\sulfide.png" />
+    <Resource Include="Resources\tacos.jpg" />
+    <Resource Include="Resources\united_states.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
