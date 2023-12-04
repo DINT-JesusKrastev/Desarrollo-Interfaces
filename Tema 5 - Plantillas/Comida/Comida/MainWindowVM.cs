@@ -22,6 +22,17 @@ namespace Comida
             }
         }
 
+        private ObservableCollection<string> tiposComida;
+        public ObservableCollection<string> TiposComida
+        {
+            get { return tiposComida; }
+            set
+            {
+                tiposComida = value;
+                NotifyPropertyChanged("TiposComida");
+            }
+        }
+
         private Plato platoSeleccionado;
         public Plato PlatoSeleccionado
         {
@@ -37,6 +48,10 @@ namespace Comida
         public MainWindowVM() 
         {
             ListaPlatos = Plato.GetSamples("./Resources/");
+            TiposComida = new ObservableCollection<string>();
+            TiposComida.Add("China");
+            TiposComida.Add("Mexicana");
+            TiposComida.Add("Americana");
             PlatoSeleccionado = null;
         }
         public void DeshabilitarEditorPlato() => PlatoSeleccionado = null;
