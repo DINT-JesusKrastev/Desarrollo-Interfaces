@@ -1,4 +1,6 @@
-﻿using System;
+﻿using CommunityToolkit.Mvvm.ComponentModel;
+using CommunityToolkit.Mvvm.Input;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
@@ -7,21 +9,18 @@ using System.Threading.Tasks;
 
 namespace SuperheroesMVVM
 {
-    class MainWindowVM : INotifyPropertyChanged
+    class MainWindowVM : ObservableObject
     {
         private List<Superheroe> heroes;
 
         private Superheroe heroeActual;
-
-        // public RelayCommand SiguienteCommand { get; }
 
         public Superheroe HeroeActual
         {
             get { return heroeActual; }
             set 
             { 
-                heroeActual = value;
-                NotifyPropertyChanged("HeroeActual");
+                SetProperty(ref heroeActual, value);
             }
         }
 
@@ -31,9 +30,8 @@ namespace SuperheroesMVVM
         {
             get { return total; }
             set 
-            { 
-                total = value;
-                NotifyPropertyChanged("Total");
+            {
+                SetProperty(ref total, value);
             }
         }
 
@@ -43,11 +41,13 @@ namespace SuperheroesMVVM
         {
             get { return actual; }
             set 
-            { 
-                actual = value;
-                NotifyPropertyChanged("Actual");
+            {
+                SetProperty(ref actual, value);
             }
         }
+
+        public RelayCommand SiguienteCommand { get; }
+        public RelayCommand AnteriorCommand { get; }
 
 
         public MainWindowVM()
@@ -56,24 +56,20 @@ namespace SuperheroesMVVM
             HeroeActual = heroes[0];
             Total = heroes.Count;
             Actual = 1;
+            SiguienteCommand = new RelayCommand(Siguiente);
+            AnteriorCommand = new RelayCommand(Anterior);
         }
 
         public void Siguiente()
-        { 
-            if (Actual < Total)
-            {
-                Actual++;
-                HeroeActual = heroes[Actual-1];
-            }
+        {
+            Actual = (Actual + 1 <= heroes.Count) ? Actual + 1 : 1;
+            HeroeActual = heroes[Actual-1];
         }
 
         public void Anterior()
         {
-            if (Actual > 1)
-            {
-                Actual--;
-                HeroeActual = heroes[Actual-1];
-            }
+            Actual = (Actual - 1 >= 1) ? Actual - 1 : heroes.Count;
+            HeroeActual = heroes[Actual-1];
         }
 
         public event PropertyChangedEventHandler PropertyChanged;

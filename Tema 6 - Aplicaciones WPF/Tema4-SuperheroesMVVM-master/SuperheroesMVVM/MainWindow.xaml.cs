@@ -6,9 +6,6 @@ using System.Windows.Input;
 
 namespace SuperheroesMVVM
 {
-    /// <summary>
-    /// Lógica de interacción para MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window
     {
         private MainWindowVM vm;
@@ -19,16 +16,5 @@ namespace SuperheroesMVVM
             vm = new MainWindowVM();
             this.DataContext = vm;
         }
-
-        private void leftImage_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
-        {
-            vm.Anterior();
-        }
-
-        private void rightImage_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
-        {
-            vm.Siguiente();
-        }
-
     }
 }

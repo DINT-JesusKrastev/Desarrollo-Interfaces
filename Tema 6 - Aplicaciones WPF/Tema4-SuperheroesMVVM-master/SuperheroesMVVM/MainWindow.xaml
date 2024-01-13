@@ -3,7 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:SuperheroesMVVM"
+        xmlns:local="clr-namespace:SuperheroesMVVM" d:DataContext="{d:DesignInstance Type=local:MainWindowVM}"
         mc:Ignorable="d"
         Title="Superhéroes"
         Height="700"
@@ -31,8 +31,13 @@
             <Setter Property="FontWeight"
                     Value="Bold"></Setter>
         </Style>
-
     </Window.Resources>
+
+    <Window.InputBindings>
+        <KeyBinding Command="{Binding Path=SiguienteCommand}" Key="A" Modifiers="Ctrl"/>
+        <KeyBinding Command="{Binding Path=AnteriorCommand}" Key="R" Modifiers="Ctrl"/>
+    </Window.InputBindings>
+
     <DockPanel x:Name="superheroeDockPanel"
                        Background="{Binding Path=HeroeActual.Heroe, Converter={StaticResource conversorFondo}}">
         <DockPanel LastChildFill="False"
@@ -64,9 +69,10 @@
         <StackPanel DockPanel.Dock="Bottom"
                             Orientation="Horizontal"
                             HorizontalAlignment="Center">
-            <Image x:Name="leftImage"
-                           Style="{StaticResource flechas}"
-                           MouseLeftButtonUp="leftImage_MouseLeftButtonUp"></Image>
+            <Button Command="{Binding Path=AnteriorCommand}">
+                <Image x:Name="leftImage"
+                               Style="{StaticResource flechas}"></Image>
+            </Button>
             <TextBlock x:Name="actualTextBlock"
                                Style="{StaticResource contador}"
                                Margin="5,0,0,5"
@@ -77,21 +83,22 @@
                                Style="{StaticResource contador}"
                                Margin="0,0,5,5"
                                Text="{Binding Path=Total}"></TextBlock>
-            <Image x:Name="rightImage"
-                           Style="{StaticResource flechas}"
-                           RenderTransformOrigin="0.5,0.5"
-                           MouseLeftButtonUp="rightImage_MouseLeftButtonUp">
-                <Image.RenderTransform>
-                    <TransformGroup>
-                        <ScaleTransform ScaleY="1"
-                                                ScaleX="-1" />
-                        <SkewTransform AngleY="0"
-                                               AngleX="0" />
-                        <RotateTransform Angle="0" />
-                        <TranslateTransform />
-                    </TransformGroup>
-                </Image.RenderTransform>
-            </Image>
+            <Button Command="{Binding SiguienteCommand}">
+                <Image x:Name="rightImage"
+                               Style="{StaticResource flechas}"
+                               RenderTransformOrigin="0.5,0.5">
+                    <Image.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform ScaleY="1"
+                                    ScaleX="-1" />
+                            <SkewTransform AngleY="0"
+                                   AngleX="0" />
+                            <RotateTransform Angle="0" />
+                            <TranslateTransform />
+                        </TransformGroup>
+                    </Image.RenderTransform>
+                </Image>
+            </Button>
         </StackPanel>
         <Image Source="{Binding Path=HeroeActual.Imagen}"
                        Stretch="UniformToFill"

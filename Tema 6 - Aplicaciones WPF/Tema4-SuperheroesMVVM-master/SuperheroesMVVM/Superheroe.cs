@@ -87,6 +87,8 @@ namespace SuperheroesMVVM
             Heroe = heroe;
         }
 
+        
+
         public event PropertyChangedEventHandler PropertyChanged;
 
         public void NotifyPropertyChanged(string propertyName)
