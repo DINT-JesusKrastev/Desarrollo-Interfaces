@@ -58,6 +58,7 @@ D:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\2 Mas 
 D:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\2 Mas de una vista\Personas\Personas\obj\Debug\net6.0-windows\ref\Personas.dll
 D:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\2 Mas de una vista\Personas\Personas\obj\Debug\net6.0-windows\DialogoNacionalidad.g.cs
 D:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\2 Mas de una vista\Personas\Personas\obj\Debug\net6.0-windows\DialogoNacionalidad.baml
+<<<<<<< HEAD
 J:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\3 Mensajeria\Personas\Personas\bin\Debug\net6.0-windows\Personas.exe
 J:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\3 Mensajeria\Personas\Personas\bin\Debug\net6.0-windows\Personas.deps.json
 J:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\3 Mensajeria\Personas\Personas\bin\Debug\net6.0-windows\Personas.runtimeconfig.json
@@ -91,3 +92,5 @@ J:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\3 Mens
 J:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\3 Mensajeria\Personas\Personas\obj\Debug\net6.0-windows\ref\Personas.dll
 J:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\3 Mensajeria\Personas\Personas\obj\Debug\net6.0-windows\UserControlConsultaPersona.g.cs
 J:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\3 Mensajeria\Personas\Personas\obj\Debug\net6.0-windows\UserControlConsultaPersona.baml
+=======
+>>>>>>> eb9692e2ab6d2d9ecb99ffd2e85f9717b3c0b7c2

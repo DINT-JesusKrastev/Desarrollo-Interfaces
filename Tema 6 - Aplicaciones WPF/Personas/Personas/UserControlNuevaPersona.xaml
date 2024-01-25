@@ -17,16 +17,29 @@
     
     <StackPanel Margin="10">
         <TextBlock Text="Nombre"/>
+<<<<<<< HEAD
         <TextBox Text="{Binding Path=NuevaPersona.Nombre, UpdateSourceTrigger=PropertyChanged}"/>
         <TextBlock Text="Edad"/>
         <TextBox Text="{Binding Path=NuevaPersona.Edad, UpdateSourceTrigger=PropertyChanged}"/>
         <TextBlock Text="Nacionalidad"/>
         <StackPanel Orientation="Horizontal">
             <ComboBox Width="200" Height="25" ItemsSource="{Binding Path=Nacionalidades}" SelectedItem="{Binding Path=NuevaPersona.Nacionalidad, UpdateSourceTrigger=PropertyChanged}">
+=======
+        <TextBox/>
+        <TextBlock Text="Edad"/>
+        <TextBox/>
+        <TextBlock Text="Nacionalidad"/>
+        <StackPanel Orientation="Horizontal">
+            <ComboBox Width="200" Height="25" ItemsSource="{Binding Path=Nacionalidades}">
+>>>>>>> eb9692e2ab6d2d9ecb99ffd2e85f9717b3c0b7c2
 
             </ComboBox>
             <Button Content="+" Width="25" Height="25" Command="{Binding Path=AbrirDialogoNacionalidadCommand}"/>
         </StackPanel>
+<<<<<<< HEAD
         <Button Content="Aceptar" HorizontalAlignment="Center" Width="150" Command="{Binding Path=AnyadirPersonaCommand}"/>
+=======
+        <Button Content="Aceptar" HorizontalAlignment="Center" Width="150"/>
+>>>>>>> eb9692e2ab6d2d9ecb99ffd2e85f9717b3c0b7c2
     </StackPanel>
 </UserControl>

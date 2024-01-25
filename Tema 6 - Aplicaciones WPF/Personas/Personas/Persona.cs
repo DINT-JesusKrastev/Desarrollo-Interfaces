@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 using System;
+=======
+﻿using System;
+>>>>>>> eb9692e2ab6d2d9ecb99ffd2e85f9717b3c0b7c2
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -7,6 +11,7 @@ using System.Threading.Tasks;
 
 namespace Personas
 {
+<<<<<<< HEAD
     public class Persona : ObservableObject
     {
         private string? nombre;
@@ -29,6 +34,13 @@ namespace Personas
         public Persona() {
             
         }
+=======
+    public class Persona
+    {
+        public string Nombre { get; set; }
+        public int Edad {  get; set; }
+        public string Nacionalidad { get; set; }
+>>>>>>> eb9692e2ab6d2d9ecb99ffd2e85f9717b3c0b7c2
 
         public Persona(string Nombre, int Edad, string Nacionalidad)
         {

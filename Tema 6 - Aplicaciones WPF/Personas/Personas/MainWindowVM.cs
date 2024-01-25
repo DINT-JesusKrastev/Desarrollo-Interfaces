@@ -20,21 +20,30 @@ namespace Personas
         }
         public RelayCommand VistaNuevaPersonaCommand { get; }
         public RelayCommand VistaListadoPersonasCommand { get; }
+<<<<<<< HEAD
         public RelayCommand VistaConsultaPersonaCommand { get; }
+=======
+>>>>>>> eb9692e2ab6d2d9ecb99ffd2e85f9717b3c0b7c2
         private NavegacionService navegacionService;
 
         public MainWindowVM()
         {
             VistaNuevaPersonaCommand = new RelayCommand(CargaVistaNuevaPersona);
             VistaListadoPersonasCommand = new RelayCommand(CargaVistaListaPersonas);
+<<<<<<< HEAD
             VistaConsultaPersonaCommand = new RelayCommand(CargaVistaConsultaPersona);
+=======
+>>>>>>> eb9692e2ab6d2d9ecb99ffd2e85f9717b3c0b7c2
             navegacionService = new NavegacionService();
         }
 
         public void CargaVistaNuevaPersona() => ContenidoVista = navegacionService.ObtenUserControlNuevaPersona();
 
         public void CargaVistaListaPersonas() => ContenidoVista = navegacionService.ObtenUserControlListadoPersonas();
+<<<<<<< HEAD
 
         public void CargaVistaConsultaPersona() => ContenidoVista = navegacionService.ObtenUserControlConsultaPersona();
+=======
+>>>>>>> eb9692e2ab6d2d9ecb99ffd2e85f9717b3c0b7c2
     }
 }

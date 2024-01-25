@@ -24,11 +24,8 @@ namespace Comida
             InitializeComponent();
             vm = new MainWindowVM();
             this.DataContext = vm;
-            vm.DeshabilitarEditorPlato(editorPlato);
         }
 
-        private void Plato_PreviewMouseLeftButtonDown(object sender, MouseButtonEventArgs e) => vm.HabilitarEditorPlato(editorPlato);
-
-        private void BtnLimpiarSeleccion_MouseLeftButtonUp(object sender, MouseButtonEventArgs e) => vm.DeshabilitarEditorPlato(editorPlato);
+        private void BtnLimpiarSeleccion_MouseLeftButtonUp(object sender, MouseButtonEventArgs e) => vm.DeshabilitarEditorPlato();
     }
 }

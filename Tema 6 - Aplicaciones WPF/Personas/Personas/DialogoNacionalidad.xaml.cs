@@ -27,7 +27,10 @@ namespace Personas
 
         private void AceptarButton_Click(object sender, RoutedEventArgs e)
         {
+<<<<<<< HEAD
             vm.Aceptar();
+=======
+>>>>>>> eb9692e2ab6d2d9ecb99ffd2e85f9717b3c0b7c2
             DialogResult = true;
         }
     }

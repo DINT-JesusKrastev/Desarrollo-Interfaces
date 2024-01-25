@@ -59,11 +59,16 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\alumno\\.nuget\\packages\\": {}
+=======
+    "C:\\Users\\Jesus\\.nuget\\packages\\": {}
+>>>>>>> eb9692e2ab6d2d9ecb99ffd2e85f9717b3c0b7c2
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "J:\\DAM\\2DAM\\Desarrollo de interfaces\\Tema 6 - Aplicaciones WPF\\Ejercicios\\3 Mensajeria\\Personas\\Personas\\Personas.csproj",
       "projectName": "Personas",
       "projectPath": "J:\\DAM\\2DAM\\Desarrollo de interfaces\\Tema 6 - Aplicaciones WPF\\Ejercicios\\3 Mensajeria\\Personas\\Personas\\Personas.csproj",
@@ -72,6 +77,16 @@
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\alumno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+      "projectUniqueName": "D:\\DAM\\2DAM\\Desarrollo de interfaces\\Tema 6 - Aplicaciones WPF\\Ejercicios\\2 Mas de una vista\\Personas\\Personas\\Personas.csproj",
+      "projectName": "Personas",
+      "projectPath": "D:\\DAM\\2DAM\\Desarrollo de interfaces\\Tema 6 - Aplicaciones WPF\\Ejercicios\\2 Mas de una vista\\Personas\\Personas\\Personas.csproj",
+      "packagesPath": "C:\\Users\\Jesus\\.nuget\\packages\\",
+      "outputPath": "D:\\DAM\\2DAM\\Desarrollo de interfaces\\Tema 6 - Aplicaciones WPF\\Ejercicios\\2 Mas de una vista\\Personas\\Personas\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Jesus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> eb9692e2ab6d2d9ecb99ffd2e85f9717b3c0b7c2
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

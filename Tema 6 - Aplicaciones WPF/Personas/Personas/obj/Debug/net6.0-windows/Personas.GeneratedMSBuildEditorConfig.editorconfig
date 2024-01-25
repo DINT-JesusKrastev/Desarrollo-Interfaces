@@ -8,4 +8,8 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Personas
+<<<<<<< HEAD
 build_property.ProjectDir = J:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\3 Mensajeria\Personas\Personas\
+=======
+build_property.ProjectDir = D:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\2 Mas de una vista\Personas\Personas\
+>>>>>>> eb9692e2ab6d2d9ecb99ffd2e85f9717b3c0b7c2

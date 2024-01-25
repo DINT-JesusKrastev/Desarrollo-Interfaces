@@ -19,9 +19,13 @@
     </UserControl.Resources>
 
     <ListBox ItemsSource="{Binding Path=Personas}"
+<<<<<<< HEAD
              ItemTemplate="{StaticResource plantillaPersona}" 
              SelectedItem="{Binding Path=PersonaSeleccionada}"
              Margin="10">
+=======
+             ItemTemplate="{StaticResource plantillaPersona}" Margin="10">
+>>>>>>> eb9692e2ab6d2d9ecb99ffd2e85f9717b3c0b7c2
         <ListBox.ItemsPanel>
             <ItemsPanelTemplate>
                 <StackPanel/>

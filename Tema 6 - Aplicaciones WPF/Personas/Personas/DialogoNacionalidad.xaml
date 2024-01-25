@@ -22,7 +22,11 @@
         </StackPanel>
         <StackPanel>
             <TextBlock Text="Nacionalidad"/>
+<<<<<<< HEAD
             <TextBox Text="{Binding Path=Nacionalidad, UpdateSourceTrigger=PropertyChanged}"/>
+=======
+            <TextBox/>
+>>>>>>> eb9692e2ab6d2d9ecb99ffd2e85f9717b3c0b7c2
         </StackPanel>
     </DockPanel>
 </Window>

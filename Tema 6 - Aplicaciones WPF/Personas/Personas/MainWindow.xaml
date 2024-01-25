@@ -18,7 +18,10 @@
         <StackPanel Orientation="Horizontal" DockPanel.Dock="Top">
             <Button Content="Nueva persona" Command="{Binding VistaNuevaPersonaCommand}"/>
             <Button Content="Listado de personas" Command="{Binding VistaListadoPersonasCommand}"/>
+<<<<<<< HEAD
             <Button Content="Consulta persona" Command="{Binding VistaConsultaPersonaCommand}"/>
+=======
+>>>>>>> eb9692e2ab6d2d9ecb99ffd2e85f9717b3c0b7c2
         </StackPanel>
         <Border BorderBrush="Black" BorderThickness="2" Margin="10,0,10,10">
             <ContentControl Content="{Binding Path=ContenidoVista}">
