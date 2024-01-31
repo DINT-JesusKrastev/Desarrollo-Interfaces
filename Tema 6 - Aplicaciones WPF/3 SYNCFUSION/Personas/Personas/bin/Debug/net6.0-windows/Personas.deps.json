@@ -1,0 +1,94 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Personas/1.0.0": {
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.2.2",
+          "Syncfusion.SfTextInputLayout.WPF": "24.1.47"
+        },
+        "runtime": {
+          "Personas.dll": {}
+        }
+      },
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "assemblyVersion": "8.2.0.0",
+            "fileVersion": "8.2.2.1"
+          }
+        }
+      },
+      "Syncfusion.Licensing/24.1.47": {
+        "runtime": {
+          "lib/net6.0/Syncfusion.Licensing.dll": {
+            "assemblyVersion": "24.1.47.0",
+            "fileVersion": "24.1.47.0"
+          }
+        }
+      },
+      "Syncfusion.SfTextInputLayout.WPF/24.1.47": {
+        "dependencies": {
+          "Syncfusion.Licensing": "24.1.47",
+          "Syncfusion.Shared.WPF": "24.1.47"
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/Syncfusion.SfTextInputLayout.WPF.dll": {
+            "assemblyVersion": "24.1.47.0",
+            "fileVersion": "24.1.47.0"
+          }
+        }
+      },
+      "Syncfusion.Shared.WPF/24.1.47": {
+        "dependencies": {
+          "Syncfusion.Licensing": "24.1.47"
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/Syncfusion.Shared.WPF.dll": {
+            "assemblyVersion": "24.1.47.0",
+            "fileVersion": "24.1.47.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Personas/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CommunityToolkit.Mvvm/8.2.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-r0g0k9tGYdrnz8R7T3x5UiokDffeevzK/2P/9SBL6fqLgN8B157MIi/bVUWI1KAz6ZorZrK9AdABCWUeXZZsvA==",
+      "path": "communitytoolkit.mvvm/8.2.2",
+      "hashPath": "communitytoolkit.mvvm.8.2.2.nupkg.sha512"
+    },
+    "Syncfusion.Licensing/24.1.47": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-umuqKtsQnq//31JrKfQBpPofNZC1pYF5wwcNSf+mCIrf9BC+AP4UgYUtb2ntTlLaDjZsDNSsZdV22QxtNBE63w==",
+      "path": "syncfusion.licensing/24.1.47",
+      "hashPath": "syncfusion.licensing.24.1.47.nupkg.sha512"
+    },
+    "Syncfusion.SfTextInputLayout.WPF/24.1.47": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2X8dyAV7Jcv0U9NRKxXc+0PoR8z7bn54iI1nDL7AVV3xHztYOQFCYZjPKy6YopPrOUvMqvUJ6sjkJfefyWEgog==",
+      "path": "syncfusion.sftextinputlayout.wpf/24.1.47",
+      "hashPath": "syncfusion.sftextinputlayout.wpf.24.1.47.nupkg.sha512"
+    },
+    "Syncfusion.Shared.WPF/24.1.47": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-58il67XMcN9uYghOuXEle/OQL3y/6sV84XmpwQSpbpDwBFiFart0AluGPTp8yXlTJzmgFehVp3TlGxrVdB0VTw==",
+      "path": "syncfusion.shared.wpf/24.1.47",
+      "hashPath": "syncfusion.shared.wpf.24.1.47.nupkg.sha512"
+    }
+  }
+}
