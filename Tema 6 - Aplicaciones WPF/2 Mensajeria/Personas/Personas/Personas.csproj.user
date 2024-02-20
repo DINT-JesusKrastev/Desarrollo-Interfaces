@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="DialogoNacionalidad.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+<<<<<<< HEAD
+    <Compile Update="UserControlConsultaPersona.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+=======
+>>>>>>> eb9692e2ab6d2d9ecb99ffd2e85f9717b3c0b7c2
+    <Compile Update="UserControlListadoPersonas.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserControlNuevaPersona.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="DialogoNacionalidad.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+<<<<<<< HEAD
+    <Page Update="UserControlConsultaPersona.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+=======
+>>>>>>> eb9692e2ab6d2d9ecb99ffd2e85f9717b3c0b7c2
+    <Page Update="UserControlListadoPersonas.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserControlNuevaPersona.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

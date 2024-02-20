@@ -1,0 +1,18 @@
+{
+  "version": 2,
+<<<<<<< HEAD
+  "dgSpecHash": "DnU/8lNRhF2QHOzFWwJ3sq7G8gb82MAlH3spgXObFnoWWU0RLj9AvVVeYOy3NWZ31tKDSa3yv9i/9cSEdtO2zA==",
+  "success": true,
+  "projectFilePath": "J:\\DAM\\2DAM\\Desarrollo de interfaces\\Tema 6 - Aplicaciones WPF\\Ejercicios\\3 Mensajeria\\Personas\\Personas\\Personas.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\alumno\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.2\\communitytoolkit.mvvm.8.2.2.nupkg.sha512"
+=======
+  "dgSpecHash": "EX0ZQ2yUFVJ/Ifse2uN0tSHLi/Q0aXfXtkvWq1nBriqN/Cn868ycVZSdcPShdZj6ky4aP4LSePi7QgcLhMpd9A==",
+  "success": true,
+  "projectFilePath": "D:\\DAM\\2DAM\\Desarrollo de interfaces\\Tema 6 - Aplicaciones WPF\\Ejercicios\\2 Mas de una vista\\Personas\\Personas\\Personas.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Jesus\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.2\\communitytoolkit.mvvm.8.2.2.nupkg.sha512"
+>>>>>>> eb9692e2ab6d2d9ecb99ffd2e85f9717b3c0b7c2
+  ],
+  "logs": []
+}

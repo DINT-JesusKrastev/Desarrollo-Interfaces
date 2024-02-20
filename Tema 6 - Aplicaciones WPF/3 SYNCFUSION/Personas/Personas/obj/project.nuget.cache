@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "JQzX0y4p2aupW6mnfpGQa8N3W10ljkM1cvWTx0qsxhJ0IYPJ9haFu1aTSFB9pVVTs259oS2HibDcnLISjJhq3w==",
+  "success": true,
+  "projectFilePath": "J:\\DAM\\2DAM\\Desarrollo de interfaces\\Tema 6 - Aplicaciones WPF\\Ejercicios\\4 SYNCFUSION\\Personas\\Personas\\Personas.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\alumno\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.2\\communitytoolkit.mvvm.8.2.2.nupkg.sha512",
+    "C:\\Users\\alumno\\.nuget\\packages\\syncfusion.licensing\\24.1.47\\syncfusion.licensing.24.1.47.nupkg.sha512",
+    "C:\\Users\\alumno\\.nuget\\packages\\syncfusion.sftextinputlayout.wpf\\24.1.47\\syncfusion.sftextinputlayout.wpf.24.1.47.nupkg.sha512",
+    "C:\\Users\\alumno\\.nuget\\packages\\syncfusion.shared.wpf\\24.1.47\\syncfusion.shared.wpf.24.1.47.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,35 @@
+﻿<UserControl x:Class="Personas.UserControlListadoPersonas"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Personas"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <UserControl.Resources>
+        <DataTemplate x:Key="plantillaPersona">
+            <TextBlock>
+                <Run Text="{Binding Path=Nombre}"/>
+                <Run Text=" - "/>
+                <Run Text="{Binding Path=Edad}"/>
+                <Run Text=" - "/>
+                <Run Text="{Binding Path=Nacionalidad}"/>
+            </TextBlock>
+        </DataTemplate>
+    </UserControl.Resources>
+
+    <ListBox ItemsSource="{Binding Path=Personas}"
+<<<<<<< HEAD
+             ItemTemplate="{StaticResource plantillaPersona}" 
+             SelectedItem="{Binding Path=PersonaSeleccionada}"
+             Margin="10">
+=======
+             ItemTemplate="{StaticResource plantillaPersona}" Margin="10">
+>>>>>>> eb9692e2ab6d2d9ecb99ffd2e85f9717b3c0b7c2
+        <ListBox.ItemsPanel>
+            <ItemsPanelTemplate>
+                <StackPanel/>
+            </ItemsPanelTemplate>
+        </ListBox.ItemsPanel>
+    </ListBox>
+</UserControl>

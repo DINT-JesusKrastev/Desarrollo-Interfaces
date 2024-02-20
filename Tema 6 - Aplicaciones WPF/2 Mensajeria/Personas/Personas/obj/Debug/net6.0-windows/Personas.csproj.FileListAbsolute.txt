@@ -1,0 +1,96 @@
+J:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\2 Mas de una vista\Personas\Personas\bin\Debug\net6.0-windows\Personas.exe
+J:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\2 Mas de una vista\Personas\Personas\bin\Debug\net6.0-windows\Personas.deps.json
+J:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\2 Mas de una vista\Personas\Personas\bin\Debug\net6.0-windows\Personas.runtimeconfig.json
+J:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\2 Mas de una vista\Personas\Personas\bin\Debug\net6.0-windows\Personas.dll
+J:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\2 Mas de una vista\Personas\Personas\bin\Debug\net6.0-windows\Personas.pdb
+J:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\2 Mas de una vista\Personas\Personas\bin\Debug\net6.0-windows\CommunityToolkit.Mvvm.dll
+J:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\2 Mas de una vista\Personas\Personas\obj\Debug\net6.0-windows\Personas.csproj.AssemblyReference.cache
+J:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\2 Mas de una vista\Personas\Personas\obj\Debug\net6.0-windows\MainWindow.g.cs
+J:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\2 Mas de una vista\Personas\Personas\obj\Debug\net6.0-windows\UserControlListadoPersonas.g.cs
+J:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\2 Mas de una vista\Personas\Personas\obj\Debug\net6.0-windows\UserControlNuevaPersona.g.cs
+J:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\2 Mas de una vista\Personas\Personas\obj\Debug\net6.0-windows\App.g.cs
+J:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\2 Mas de una vista\Personas\Personas\obj\Debug\net6.0-windows\Personas_MarkupCompile.cache
+J:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\2 Mas de una vista\Personas\Personas\obj\Debug\net6.0-windows\Personas_MarkupCompile.lref
+J:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\2 Mas de una vista\Personas\Personas\obj\Debug\net6.0-windows\MainWindow.baml
+J:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\2 Mas de una vista\Personas\Personas\obj\Debug\net6.0-windows\UserControlListadoPersonas.baml
+J:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\2 Mas de una vista\Personas\Personas\obj\Debug\net6.0-windows\UserControlNuevaPersona.baml
+J:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\2 Mas de una vista\Personas\Personas\obj\Debug\net6.0-windows\Personas.g.resources
+J:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\2 Mas de una vista\Personas\Personas\obj\Debug\net6.0-windows\Personas.Properties.Resources.resources
+J:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\2 Mas de una vista\Personas\Personas\obj\Debug\net6.0-windows\Personas.csproj.GenerateResource.cache
+J:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\2 Mas de una vista\Personas\Personas\obj\Debug\net6.0-windows\Personas.GeneratedMSBuildEditorConfig.editorconfig
+J:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\2 Mas de una vista\Personas\Personas\obj\Debug\net6.0-windows\Personas.AssemblyInfoInputs.cache
+J:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\2 Mas de una vista\Personas\Personas\obj\Debug\net6.0-windows\Personas.AssemblyInfo.cs
+J:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\2 Mas de una vista\Personas\Personas\obj\Debug\net6.0-windows\Personas.csproj.CoreCompileInputs.cache
+J:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\2 Mas de una vista\Personas\Personas\obj\Debug\net6.0-windows\Personas.csproj.CopyComplete
+J:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\2 Mas de una vista\Personas\Personas\obj\Debug\net6.0-windows\Personas.dll
+J:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\2 Mas de una vista\Personas\Personas\obj\Debug\net6.0-windows\refint\Personas.dll
+J:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\2 Mas de una vista\Personas\Personas\obj\Debug\net6.0-windows\Personas.pdb
+J:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\2 Mas de una vista\Personas\Personas\obj\Debug\net6.0-windows\Personas.genruntimeconfig.cache
+J:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\2 Mas de una vista\Personas\Personas\obj\Debug\net6.0-windows\ref\Personas.dll
+D:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\2 Mas de una vista\Personas\Personas\bin\Debug\net6.0-windows\Personas.exe
+D:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\2 Mas de una vista\Personas\Personas\bin\Debug\net6.0-windows\Personas.deps.json
+D:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\2 Mas de una vista\Personas\Personas\bin\Debug\net6.0-windows\Personas.runtimeconfig.json
+D:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\2 Mas de una vista\Personas\Personas\bin\Debug\net6.0-windows\Personas.dll
+D:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\2 Mas de una vista\Personas\Personas\bin\Debug\net6.0-windows\Personas.pdb
+D:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\2 Mas de una vista\Personas\Personas\bin\Debug\net6.0-windows\CommunityToolkit.Mvvm.dll
+D:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\2 Mas de una vista\Personas\Personas\obj\Debug\net6.0-windows\Personas.csproj.AssemblyReference.cache
+D:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\2 Mas de una vista\Personas\Personas\obj\Debug\net6.0-windows\MainWindow.g.cs
+D:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\2 Mas de una vista\Personas\Personas\obj\Debug\net6.0-windows\UserControlListadoPersonas.g.cs
+D:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\2 Mas de una vista\Personas\Personas\obj\Debug\net6.0-windows\UserControlNuevaPersona.g.cs
+D:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\2 Mas de una vista\Personas\Personas\obj\Debug\net6.0-windows\App.g.cs
+D:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\2 Mas de una vista\Personas\Personas\obj\Debug\net6.0-windows\Personas_MarkupCompile.cache
+D:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\2 Mas de una vista\Personas\Personas\obj\Debug\net6.0-windows\Personas_MarkupCompile.lref
+D:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\2 Mas de una vista\Personas\Personas\obj\Debug\net6.0-windows\MainWindow.baml
+D:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\2 Mas de una vista\Personas\Personas\obj\Debug\net6.0-windows\UserControlListadoPersonas.baml
+D:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\2 Mas de una vista\Personas\Personas\obj\Debug\net6.0-windows\UserControlNuevaPersona.baml
+D:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\2 Mas de una vista\Personas\Personas\obj\Debug\net6.0-windows\Personas.g.resources
+D:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\2 Mas de una vista\Personas\Personas\obj\Debug\net6.0-windows\Personas.Properties.Resources.resources
+D:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\2 Mas de una vista\Personas\Personas\obj\Debug\net6.0-windows\Personas.csproj.GenerateResource.cache
+D:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\2 Mas de una vista\Personas\Personas\obj\Debug\net6.0-windows\Personas.GeneratedMSBuildEditorConfig.editorconfig
+D:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\2 Mas de una vista\Personas\Personas\obj\Debug\net6.0-windows\Personas.AssemblyInfoInputs.cache
+D:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\2 Mas de una vista\Personas\Personas\obj\Debug\net6.0-windows\Personas.AssemblyInfo.cs
+D:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\2 Mas de una vista\Personas\Personas\obj\Debug\net6.0-windows\Personas.csproj.CoreCompileInputs.cache
+D:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\2 Mas de una vista\Personas\Personas\obj\Debug\net6.0-windows\Personas.csproj.CopyComplete
+D:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\2 Mas de una vista\Personas\Personas\obj\Debug\net6.0-windows\Personas.dll
+D:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\2 Mas de una vista\Personas\Personas\obj\Debug\net6.0-windows\refint\Personas.dll
+D:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\2 Mas de una vista\Personas\Personas\obj\Debug\net6.0-windows\Personas.pdb
+D:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\2 Mas de una vista\Personas\Personas\obj\Debug\net6.0-windows\Personas.genruntimeconfig.cache
+D:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\2 Mas de una vista\Personas\Personas\obj\Debug\net6.0-windows\ref\Personas.dll
+D:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\2 Mas de una vista\Personas\Personas\obj\Debug\net6.0-windows\DialogoNacionalidad.g.cs
+D:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\2 Mas de una vista\Personas\Personas\obj\Debug\net6.0-windows\DialogoNacionalidad.baml
+<<<<<<< HEAD
+J:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\3 Mensajeria\Personas\Personas\bin\Debug\net6.0-windows\Personas.exe
+J:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\3 Mensajeria\Personas\Personas\bin\Debug\net6.0-windows\Personas.deps.json
+J:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\3 Mensajeria\Personas\Personas\bin\Debug\net6.0-windows\Personas.runtimeconfig.json
+J:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\3 Mensajeria\Personas\Personas\bin\Debug\net6.0-windows\Personas.dll
+J:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\3 Mensajeria\Personas\Personas\bin\Debug\net6.0-windows\Personas.pdb
+J:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\3 Mensajeria\Personas\Personas\bin\Debug\net6.0-windows\CommunityToolkit.Mvvm.dll
+J:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\3 Mensajeria\Personas\Personas\obj\Debug\net6.0-windows\Personas.csproj.AssemblyReference.cache
+J:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\3 Mensajeria\Personas\Personas\obj\Debug\net6.0-windows\DialogoNacionalidad.g.cs
+J:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\3 Mensajeria\Personas\Personas\obj\Debug\net6.0-windows\MainWindow.g.cs
+J:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\3 Mensajeria\Personas\Personas\obj\Debug\net6.0-windows\UserControlListadoPersonas.g.cs
+J:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\3 Mensajeria\Personas\Personas\obj\Debug\net6.0-windows\UserControlNuevaPersona.g.cs
+J:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\3 Mensajeria\Personas\Personas\obj\Debug\net6.0-windows\App.g.cs
+J:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\3 Mensajeria\Personas\Personas\obj\Debug\net6.0-windows\Personas_MarkupCompile.cache
+J:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\3 Mensajeria\Personas\Personas\obj\Debug\net6.0-windows\Personas_MarkupCompile.lref
+J:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\3 Mensajeria\Personas\Personas\obj\Debug\net6.0-windows\DialogoNacionalidad.baml
+J:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\3 Mensajeria\Personas\Personas\obj\Debug\net6.0-windows\MainWindow.baml
+J:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\3 Mensajeria\Personas\Personas\obj\Debug\net6.0-windows\UserControlListadoPersonas.baml
+J:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\3 Mensajeria\Personas\Personas\obj\Debug\net6.0-windows\UserControlNuevaPersona.baml
+J:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\3 Mensajeria\Personas\Personas\obj\Debug\net6.0-windows\Personas.g.resources
+J:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\3 Mensajeria\Personas\Personas\obj\Debug\net6.0-windows\Personas.Properties.Resources.resources
+J:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\3 Mensajeria\Personas\Personas\obj\Debug\net6.0-windows\Personas.csproj.GenerateResource.cache
+J:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\3 Mensajeria\Personas\Personas\obj\Debug\net6.0-windows\Personas.GeneratedMSBuildEditorConfig.editorconfig
+J:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\3 Mensajeria\Personas\Personas\obj\Debug\net6.0-windows\Personas.AssemblyInfoInputs.cache
+J:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\3 Mensajeria\Personas\Personas\obj\Debug\net6.0-windows\Personas.AssemblyInfo.cs
+J:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\3 Mensajeria\Personas\Personas\obj\Debug\net6.0-windows\Personas.csproj.CoreCompileInputs.cache
+J:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\3 Mensajeria\Personas\Personas\obj\Debug\net6.0-windows\Personas.csproj.CopyComplete
+J:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\3 Mensajeria\Personas\Personas\obj\Debug\net6.0-windows\Personas.dll
+J:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\3 Mensajeria\Personas\Personas\obj\Debug\net6.0-windows\refint\Personas.dll
+J:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\3 Mensajeria\Personas\Personas\obj\Debug\net6.0-windows\Personas.pdb
+J:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\3 Mensajeria\Personas\Personas\obj\Debug\net6.0-windows\Personas.genruntimeconfig.cache
+J:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\3 Mensajeria\Personas\Personas\obj\Debug\net6.0-windows\ref\Personas.dll
+J:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\3 Mensajeria\Personas\Personas\obj\Debug\net6.0-windows\UserControlConsultaPersona.g.cs
+J:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\3 Mensajeria\Personas\Personas\obj\Debug\net6.0-windows\UserControlConsultaPersona.baml
+=======
+>>>>>>> eb9692e2ab6d2d9ecb99ffd2e85f9717b3c0b7c2

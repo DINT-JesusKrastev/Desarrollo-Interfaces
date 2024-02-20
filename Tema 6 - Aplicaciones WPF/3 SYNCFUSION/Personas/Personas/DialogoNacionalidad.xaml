@@ -1,0 +1,28 @@
+﻿<Window x:Class="Personas.DialogoNacionalidad"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Personas"
+        mc:Ignorable="d"
+        Title="Añadir nacionalidad" Height="127" Width="308" 
+        Icon="./Resources/añadir.ico" 
+        ShowInTaskbar="False"
+        ResizeMode="NoResize">
+    <Window.Resources>
+        <Style TargetType="Button">
+            <Setter Property="Width" Value="100"/>
+        </Style>
+    </Window.Resources>
+
+    <DockPanel LastChildFill="True" Margin="10">
+        <StackPanel Orientation="Horizontal" DockPanel.Dock="Bottom" HorizontalAlignment="Right">
+            <Button Content="Aceptar" Margin="0,0,10,0" IsDefault="True" Click="AceptarButton_Click"/>
+            <Button Content="Cancelar" IsCancel="True"/>
+        </StackPanel>
+        <StackPanel>
+            <TextBlock Text="Nacionalidad"/>
+            <TextBox Text="{Binding Path=Nacionalidad, UpdateSourceTrigger=PropertyChanged}"/>
+        </StackPanel>
+    </DockPanel>
+</Window>

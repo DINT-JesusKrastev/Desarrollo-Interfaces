@@ -1,0 +1,33 @@
+﻿Personas
+
+
+winexe
+C#
+.cs
+<<<<<<< HEAD
+J:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\3 Mensajeria\Personas\Personas\obj\Debug\net6.0-windows\
+=======
+D:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\2 Mas de una vista\Personas\Personas\obj\Debug\net6.0-windows\
+>>>>>>> eb9692e2ab6d2d9ecb99ffd2e85f9717b3c0b7c2
+Personas
+none
+false
+TRACE;DEBUG;NET;NET6_0;NETCOREAPP
+<<<<<<< HEAD
+J:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\3 Mensajeria\Personas\Personas\App.xaml
+51341098890
+
+18-1453858893
+1951477790049
+DialogoNacionalidad.xaml;MainWindow.xaml;UserControlConsultaPersona.xaml;UserControlListadoPersonas.xaml;UserControlNuevaPersona.xaml;
+=======
+D:\DAM\2DAM\Desarrollo de interfaces\Tema 6 - Aplicaciones WPF\Ejercicios\2 Mas de una vista\Personas\Personas\App.xaml
+4904165993
+
+151260442210
+195704220227
+DialogoNacionalidad.xaml;MainWindow.xaml;UserControlListadoPersonas.xaml;UserControlNuevaPersona.xaml;
+>>>>>>> eb9692e2ab6d2d9ecb99ffd2e85f9717b3c0b7c2
+
+False
+
