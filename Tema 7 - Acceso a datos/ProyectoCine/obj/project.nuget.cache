@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "QFM9N5i+Qi04ISEpJ5D/MCDSC9+JOQar56b/HwT9ZdQhd8W5SYJ5fc+NdR2ib6CMp/8a1VfqcvFqtBonnyTEMA==",
+  "success": true,
+  "projectFilePath": "E:\\DAM\\2DAM\\Desarrollo de interfaces\\Tema 7 - Acceso a datos en WPF\\Ejercicios\\Proyecto\\ProyectoCine\\ProyectoCine.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Jesus\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.2\\communitytoolkit.mvvm.8.2.2.nupkg.sha512",
+    "C:\\Users\\Jesus\\.nuget\\packages\\microsoft.data.sqlite\\8.0.2\\microsoft.data.sqlite.8.0.2.nupkg.sha512",
+    "C:\\Users\\Jesus\\.nuget\\packages\\microsoft.data.sqlite.core\\8.0.2\\microsoft.data.sqlite.core.8.0.2.nupkg.sha512",
+    "C:\\Users\\Jesus\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.1.6\\sqlitepclraw.bundle_e_sqlite3.2.1.6.nupkg.sha512",
+    "C:\\Users\\Jesus\\.nuget\\packages\\sqlitepclraw.core\\2.1.6\\sqlitepclraw.core.2.1.6.nupkg.sha512",
+    "C:\\Users\\Jesus\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.6\\sqlitepclraw.lib.e_sqlite3.2.1.6.nupkg.sha512",
+    "C:\\Users\\Jesus\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.1.6\\sqlitepclraw.provider.e_sqlite3.2.1.6.nupkg.sha512",
+    "C:\\Users\\Jesus\\.nuget\\packages\\syncfusion.licensing\\24.2.6\\syncfusion.licensing.24.2.6.nupkg.sha512",
+    "C:\\Users\\Jesus\\.nuget\\packages\\syncfusion.sfnavigationdrawer.wpf\\24.2.6\\syncfusion.sfnavigationdrawer.wpf.24.2.6.nupkg.sha512",
+    "C:\\Users\\Jesus\\.nuget\\packages\\syncfusion.sftextinputlayout.wpf\\24.2.6\\syncfusion.sftextinputlayout.wpf.24.2.6.nupkg.sha512",
+    "C:\\Users\\Jesus\\.nuget\\packages\\syncfusion.shared.wpf\\24.2.6\\syncfusion.shared.wpf.24.2.6.nupkg.sha512",
+    "C:\\Users\\Jesus\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512"
+  ],
+  "logs": []
+}

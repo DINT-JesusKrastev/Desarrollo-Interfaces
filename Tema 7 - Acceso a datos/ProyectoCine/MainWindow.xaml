@@ -1,0 +1,61 @@
+﻿<Window x:Class="ProyectoCine.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProyectoCine"
+        xmlns:inputLayout="http://schemas.syncfusion.com/wpf"
+        xmlns:syncfusion="http://schemas.syncfusion.com/wpf"
+        mc:Ignorable="d"
+        Title="Filmoteca" Height="450" Width="850" MinHeight="350" MinWidth="450"
+        Background="#1b1b1b"
+        Icon="./Resources/Logo.ico">
+    <syncfusion:SfNavigationDrawer
+        x:Name="navigationDrawer"
+        DisplayMode="Expanded">
+        <syncfusion:NavigationItem
+                Header="Gestión"
+                IsExpanded="True"
+                IsSelected="True">
+            <syncfusion:NavigationItem.Icon>
+                <Image Source="/Resources/Gestion.png"/>
+            </syncfusion:NavigationItem.Icon>
+            <syncfusion:NavigationItem Header="Películas" Command="{Binding NavegarAPeliculasCommand}">
+                <syncfusion:NavigationItem.Icon>
+                    <Image Source="/Resources/Peliculas.png"/>
+                </syncfusion:NavigationItem.Icon>
+            </syncfusion:NavigationItem>
+            <syncfusion:NavigationItem Header="Salas" Command="{Binding NavegarASalasCommand}">
+                <syncfusion:NavigationItem.Icon>
+                    <Image Source="/Resources/Salas.png"/>
+                </syncfusion:NavigationItem.Icon>
+            </syncfusion:NavigationItem>
+            <syncfusion:NavigationItem Header="Entradas" Command="{Binding NavegarATicketsCommand}">
+                <syncfusion:NavigationItem.Icon>
+                    <Image Source="/Resources/Ticket.png"/>
+                </syncfusion:NavigationItem.Icon>
+            </syncfusion:NavigationItem>
+        </syncfusion:NavigationItem>
+        <syncfusion:NavigationItem
+            Header="Asistencia"
+            IsExpanded="True"
+            IsSelected="True">
+            <syncfusion:NavigationItem.Icon>
+                <Image Source="/Resources/Asistencia.png"/>
+            </syncfusion:NavigationItem.Icon>
+            <syncfusion:NavigationItem Header="Restaurar" Command="{Binding RestaurarBaseDatosCommand}">
+                <syncfusion:NavigationItem.Icon>
+                    <Image Source="/Resources/BaseDatos.png"/>
+                </syncfusion:NavigationItem.Icon>
+            </syncfusion:NavigationItem>
+            <syncfusion:NavigationItem Header="Ayuda">
+                <syncfusion:NavigationItem.Icon>
+                    <Image Source="/Resources/Ayuda.png"/>
+                </syncfusion:NavigationItem.Icon>
+            </syncfusion:NavigationItem>
+        </syncfusion:NavigationItem>
+        <syncfusion:SfNavigationDrawer.ContentView>
+            <ContentControl Content="{Binding Path=ContenidoVista}"/>
+        </syncfusion:SfNavigationDrawer.ContentView>
+    </syncfusion:SfNavigationDrawer>
+</Window>

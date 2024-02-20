@@ -1,0 +1,45 @@
+﻿<Window x:Class="ProyectoCine.FichaPelicula.DialogoSesion"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:inputLayout="http://schemas.syncfusion.com/wpf"
+        xmlns:syncfusion="clr-namespace:Syncfusion.Windows.Tools.Controls;assembly=Syncfusion.Shared.WPF" xmlns:local="clr-namespace:ProyectoCine.FichaPelicula"
+        mc:Ignorable="d"
+        Title="DialogoSesion" Height="321" Width="362" Background="#1b1b1b">
+    <Window.Resources>
+        <Style TargetType="TextBox">
+            <Setter Property="Foreground" Value="White"/>
+        </Style>
+    </Window.Resources>
+
+    <StackPanel Margin="10">
+        <inputLayout:SfTextInputLayout
+            Hint="Película"
+            LeadingViewPosition="Inside" 
+            HelperText="Introduce la película">
+            <TextBox x:Name="textBoxPelicula" Text="{Binding Path=PeliculaSeleccionada.Titulo}" IsEnabled="False"/>
+            <inputLayout:SfTextInputLayout.LeadingView>
+                <Image Source="/Resources/Pelicula.png"/>
+            </inputLayout:SfTextInputLayout.LeadingView>
+        </inputLayout:SfTextInputLayout>
+        <inputLayout:SfTextInputLayout
+            Hint="Sala"
+            LeadingViewPosition="Inside" 
+            HelperText="Introduce la sala de la película">
+            <ComboBox x:Name="comboBoxSala" ItemsSource="{Binding Path=Salas}" SelectedItem="{Binding Path=SalaSeleccionada}" Foreground="White"/>
+            <inputLayout:SfTextInputLayout.LeadingView>
+                <Image Source="/Resources/Sala.png"/>
+            </inputLayout:SfTextInputLayout.LeadingView>
+        </inputLayout:SfTextInputLayout>
+        <inputLayout:SfTextInputLayout
+            Hint="Hora"
+            LeadingViewPosition="Inside" 
+            HelperText="Introduce la hora de inicio">
+            <TextBox x:Name="textBoxHora" Text="{Binding SesionSeleccionado.Hora}"/>
+            <inputLayout:SfTextInputLayout.LeadingView>
+                <Image Source="/Resources/Hora.png"/>
+            </inputLayout:SfTextInputLayout.LeadingView>
+        </inputLayout:SfTextInputLayout>
+        <syncfusion:ButtonAdv SizeMode="Normal" Label="Guardar" Width="150" Height="30" SmallIcon="/Resources/Guardar.png" Margin="0,10,0,0" Click="BtnGuardar_Click"/>
+    </StackPanel>
+</Window>

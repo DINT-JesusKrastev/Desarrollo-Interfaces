@@ -1,0 +1,96 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\Actualizar.png" />
+    <None Remove="Resources\Anyadir.png" />
+    <None Remove="Resources\Asistencia.png" />
+    <None Remove="Resources\Ayuda.png" />
+    <None Remove="Resources\BaseDatos.png" />
+    <None Remove="Resources\Cantidad.png" />
+    <None Remove="Resources\CapacidadPersonas.png" />
+    <None Remove="Resources\Disponibilidad.png" />
+    <None Remove="Resources\Editar.png" />
+    <None Remove="Resources\Eliminar.png" />
+    <None Remove="Resources\Gestion.png" />
+    <None Remove="Resources\Guardar.png" />
+    <None Remove="Resources\Hora.png" />
+    <None Remove="Resources\IconoAnyadir.png" />
+    <None Remove="Resources\Logo.ico" />
+    <None Remove="Resources\Numero.png" />
+    <None Remove="Resources\Pago.png" />
+    <None Remove="Resources\Pelicula.png" />
+    <None Remove="Resources\Peliculas.png" />
+    <None Remove="Resources\Sala.png" />
+    <None Remove="Resources\Salas.png" />
+    <None Remove="Resources\Sesion.png" />
+    <None Remove="Resources\Ticket.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.2" />
+    <PackageReference Include="Microsoft.Data.Sqlite" Version="8.0.2" />
+    <PackageReference Include="Syncfusion.SfNavigationDrawer.WPF" Version="24.2.6" />
+    <PackageReference Include="Syncfusion.SfTextInputLayout.WPF" Version="24.2.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\Actualizar.png" />
+    <Resource Include="Resources\Anyadir.png" />
+    <Resource Include="Resources\Asistencia.png" />
+    <Resource Include="Resources\Ayuda.png" />
+    <Resource Include="Resources\BaseDatos.png" />
+    <Resource Include="Resources\Cantidad.png" />
+    <Resource Include="Resources\CapacidadPersonas.png" />
+    <Resource Include="Resources\Disponibilidad.png" />
+    <Resource Include="Resources\Editar.png" />
+    <Resource Include="Resources\Eliminar.png" />
+    <Resource Include="Resources\Gestion.png" />
+    <Resource Include="Resources\Guardar.png" />
+    <Resource Include="Resources\Hora.png" />
+    <Resource Include="Resources\IconoAnyadir.png" />
+    <Resource Include="Resources\Logo.ico" />
+    <Resource Include="Resources\Numero.png" />
+    <Resource Include="Resources\Pago.png" />
+    <Resource Include="Resources\Pelicula.png" />
+    <Resource Include="Resources\Peliculas.png" />
+    <Resource Include="Resources\Sala.png" />
+    <Resource Include="Resources\Salas.png" />
+    <Resource Include="Resources\Sesion.png" />
+    <Resource Include="Resources\Ticket.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Properties\Settings.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+
+</Project>
